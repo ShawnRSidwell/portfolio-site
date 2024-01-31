@@ -1,5 +1,9 @@
 function Icon() {
-  return <div></div>;
+  return (
+    <div>
+      <img src="" alt="" />
+    </div>
+  );
 }
 
 export default Icon;
