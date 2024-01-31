@@ -1,6 +1,6 @@
 function Hero({ headline, image, children }) {
   return (
-    <div className="flex p-6">
+    <div className="flex">
       <div>
         <h2 className="text-xl py-5">{headline}</h2>
         <p>{children}</p>

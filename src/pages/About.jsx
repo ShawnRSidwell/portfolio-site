@@ -17,7 +17,9 @@ function About() {
         aliquid nisi nihil earum quibusdam quod dolores.
       </Hero>
 
-      <Table />
+      <Table header="Coding Languages" />
+      <Table header="Coding Languages" />
+      <Table header="Coding Languages" />
     </div>
   );
 }
