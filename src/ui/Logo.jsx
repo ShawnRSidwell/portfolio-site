@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Logo() {
   return (
-    <div>
+    <div className="text-base">
       <Link to="/">Shawn Sidwell</Link>
     </div>
   );

@@ -6,7 +6,13 @@ function Hero({ headline, image, children }) {
         <p>{children}</p>
       </div>
       {image && (
-        <img className="p-5" src={image} alt="icon" height="256" width="256" />
+        <img
+          className="m-4 mt-5 rounded-xl"
+          src={image}
+          alt="icon"
+          height="240"
+          width="240"
+        />
       )}
     </div>
   );

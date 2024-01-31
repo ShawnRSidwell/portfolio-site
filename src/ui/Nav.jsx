@@ -5,24 +5,24 @@ import { FileText, Hammer, Home, Mail, Menu, UserRound, X } from "lucide-react";
 function Navlinks() {
   return (
     <>
-      <NavLink to="/" className="flex items-center gap-1 text-sm">
-        <Home size={24} /> Home
+      <NavLink to="/" className="flex items-center gap-1 text-base">
+        <Home size="1em" /> Home
       </NavLink>
-      <NavLink to="about" className="flex items-center gap-1 text-sm">
-        <UserRound />
+      <NavLink to="about" className="flex items-center gap-1 text-base">
+        <UserRound size="1em" />
         About
       </NavLink>
-      <NavLink to="resume" className="flex items-center gap-1 text-sm">
-        <FileText />
-        Resume
-      </NavLink>
-      <NavLink to="projects" className="flex items-center gap-1 text-sm">
+      <NavLink to="projects" className="flex items-center gap-1 text-base">
         {" "}
-        <Hammer />
+        <Hammer size="1em" />
         Projects
       </NavLink>
-      <NavLink to="contact" className="flex items-center gap-1 text-sm">
-        <Mail /> Contact
+      <NavLink to="resume" className="flex items-center gap-1 text-base">
+        <FileText size="1em" />
+        Resume
+      </NavLink>
+      <NavLink to="contact" className="flex items-center gap-1 text-base">
+        <Mail size="1em" /> Contact
       </NavLink>
     </>
   );
