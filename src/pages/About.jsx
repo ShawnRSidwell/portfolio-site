@@ -1,5 +1,4 @@
 import Hero from "../ui/Hero";
-import Icon from "../ui/Icon";
 import Table from "../ui/Table";
 
 function About() {
@@ -17,7 +16,7 @@ function About() {
         vero optio unde in officia repellendus quasi, impedit praesentium
         aliquid nisi nihil earum quibusdam quod dolores.
       </Hero>
-      <Icon />
+
       <Table />
     </div>
   );

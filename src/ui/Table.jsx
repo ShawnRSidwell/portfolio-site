@@ -1,20 +1,12 @@
-const tableData = [
-  "Row 1, Cell 1",
-  "Row 1, Cell 2",
-  "Row 1, Cell 3",
-  "Row 1, Cell 1",
-  "Row 1, Cell 2",
-  "Row 1, Cell 3",
-  "Row 1, Cell 1",
-  "Row 1, Cell 2",
-  "Row 1, Cell 3",
-];
+import { data as skillData } from "../data/skills";
+import Icon from "./Icon";
+
 function Table() {
   return (
     <>
       <h2 className="flex justify-center font-bold p-1">Table name!!!</h2>
       <table>
-        <TableRow data={tableData} />
+        <TableRow data={skillData} />
       </table>
     </>
   );
@@ -23,8 +15,10 @@ function Table() {
 function TableRow({ data }) {
   return (
     <tr className="flex flex-wrap gap-3 justify-center">
-      {data.map((content, i) => (
-        <TableCell key={i}>{content}</TableCell>
+      {data.map((item, i) => (
+        <TableCell key={i}>
+          <Icon icon={item.icon} size={45} />
+        </TableCell>
       ))}
     </tr>
   );

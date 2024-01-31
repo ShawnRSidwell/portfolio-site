@@ -1,9 +1,6 @@
-function Icon() {
-  return (
-    <div>
-      <img src="" alt="" />
-    </div>
-  );
+function Icon({ icon, size }) {
+  const IconComponent = icon;
+  return <IconComponent size={size} />;
 }
 
 export default Icon;
